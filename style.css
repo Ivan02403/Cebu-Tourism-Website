@@ -85,4 +85,8 @@ header h1 a{
 		font-size: 2.5rem;
 		white-space: nowrap;
 	}
+
+	.moreAbout{
+		font-size: 15px;
+	}
 }
