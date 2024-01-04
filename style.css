@@ -9,10 +9,11 @@
 	/* color: white; */
 }
 
-body{
+.home{
 	background-image: url(./src/img/coverbantayan2.jpg);
 	background-size: cover;
 	background-repeat:no-repeat ;
+	
 }
 
 .logo{
@@ -31,9 +32,9 @@ nav ul li a{
 	color: aliceblue;
 }
 
-/* nav{
-	background-color: rgba(255, 255, 0, .1);
-} */
+nav{
+	background-color: rgba(255, 255, 0, .2);
+}
 
 .nav-link{
 	color: aliceblue;
@@ -86,9 +87,100 @@ header h1 a{
 	}
 
 	.front_logo{
-		font-size: 2.5rem;
+		font-size: 2rem;
 		white-space: nowrap;
 	}
 
 
+}
+
+/* TAOIST PAGE */
+
+.taoistCover{
+	background: url(./src/img/taoistTemp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.gallery-img{
+	max-width: 100%;
+}
+
+.gallery{
+	padding: 80px 0;
+}
+
+.gallery .gallery-img{
+	background-color:azure;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+	cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.history{
+	font-family: 'Inconsolata', monospace;
+}
+
+.taoistTitle{
+	color: gold;
+}
+
+/* TEMPLE OF LEAH COVER */
+
+.leahCover{
+	background: url(./src/img/leahCover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.leahNav{
+	background-color: rgba(150, 75, 0, .2);
+}
+
+.leahTitle{
+	color:burlywood
+}
+
+/* SIRAO FLOWER GARDEN */
+
+.siraoCover{
+	background: url(./src/img/siraoCover2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.siraoTitle{
+	color: palevioletred;
+}
+
+.siraoNav{
+	background-color: rgba(243, 58, 106, .2);
+}
+
+/* 10,000 ROSES OF CEBU */
+
+.roseCover{
+	background: url(./src/img/roseCover2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.roseNav{
+	background-color: rgba(60, 60, 60, .2);
+}
+
+/* OSMENA PEAK */
+.osmenaCover{
+	background: url(./src/img/osmenaCover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.peakTitle{
+	color: orangered;
 }

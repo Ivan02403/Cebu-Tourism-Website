@@ -14,7 +14,7 @@
 </head>
 
 <body class="vh-100">
-
+<div class="home vh-100">
 	<nav class="navbar navbar-light navbar-expand-lg">
 		<div class="container-fluid mx-5 ">
 			<header>
@@ -33,7 +33,7 @@
 				<div class="offcanvas-body">
 					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5 mt-2">
 						<li class="nav-item mx-4">
-							<a class=" active link_color text-decoration-none" aria-current="page" href="#">Home</a>
+							<a class=" active px-2 py-1 rounded-5 text-bg-light link_color text-decoration-none" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class=" dropdown-toggle mx-4" href="#" id="offcanvasNavbarDropdown" role="button"
@@ -41,11 +41,11 @@
 								Famous Tourist Spots
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-								<li><a class="dropdown-item" href="#">Cebu Toaist Temple</a></li>
-								<li><a class="dropdown-item" href="#">Temple of Leah</a></li>
-								<li><a class="dropdown-item" href="#">Sirao Flower Garden</a></li>
-								<li><a class="dropdown-item" href="#">10,000 Roses of Cebu</a></li>
-								<li><a class="dropdown-item" href="#">Osmeña Peak</a></li>
+								<li><a class="dropdown-item" href="./pages/taoistTemple.html">Cebu Toaist Temple</a></li>
+								<li><a class="dropdown-item" href="./pages/leahTemple.html">Temple of Leah</a></li>
+								<li><a class="dropdown-item" href="./pages/siraoGarden.html">Sirao Flower Garden</a></li>
+								<li><a class="dropdown-item" href="./pages/rosesCebu.html">10,000 Roses of Cebu</a></li>
+								<li><a class="dropdown-item" href="./pages/osmenaPeak.html">Osmeña Peak</a></li>
 								<li><a class="dropdown-item" href="#">Kawasan Fallsd</a></li>
 								<li><a class="dropdown-item" href="#">Pescador Island</a></li>
 								<li><a class="dropdown-item" href="#">Oslob Whale Shark</a></li>
@@ -54,7 +54,7 @@
 								<li>
 									<hr class="dropdown-divider">
 								</li>
-								<li><a class="dropdown-item" href="https://www.travelcebu.ph/blog/cebu-tourist-spots-guide/" target="_blank">More about Cebu's Famous Tuorist Spots</a></li>
+								<li><a class="dropdown-item moreAbout" href="https://www.travelcebu.ph/blog/cebu-tourist-spots-guide/" target="_blank">More about Cebu's Famous Tuorist Spots</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -79,20 +79,18 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="">
-		<div class="">
-			<h1 class="text-center">Sneak Peak</h1>
+</div>
+		<div class="vh-100 my-5">
+			<h1 class="text-center">One of the Cebu's proud of</h1>
 			<div class="container">
-				<div class="row g-5">
+				<div class="row gy-5">
 
 					<div class=" col-12 col-md-6 col-lg-4 d-flex align-self-stretch">
 						<div class="card">
 							<img src="./src/img/lechon2.jpg" alt="lechon" class="card-img-top">
 							<div class="card-body">
 								<h5 class="card-title">Lechon cebu</h5>
-								<p class="card-text">Lechon is one of the famous delicacy in cebu Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Modi, itaque?</p>
+								<p class="card-text">The lechon in Cebu is unique due to the combination of herbs and spices used to marinate the meat before roasting. The pig is roasted slowly over charcoal and seasoned with lemongrass, bay leaves, peppercorns, and other local ingredients. Whereas, in other regions, lechon is prepared using only salt and pepper</p>
 							</div>
 						</div>
 					</div>
@@ -102,9 +100,7 @@
 							<img src="./src/img/coverbantayan.jpg" alt="beach" class="card-img-top">
 							<div class="card-body">
 								<h5 class="card-title">Beaches</h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ea obcaecati
-									nemo voluptatum quis aspernatur magni eius beatae officia odit. Nam eveniet neque atque ex vel quos.
-									Odio, ab alias.</p>
+								<p class="card-text">It has earned its reputation because of its powdery, white sand and clear, aquamarine waters. Spend hours getting a tan, swimming, snorkeling, camping, or island hopping in the Philippines. If you're looking to stay at a beach resort in the Philippines, spend at least a night here to fully enjoy your stay.</p>
 							</div>
 						</div>
 					</div>
@@ -114,9 +110,7 @@
 							<img src="./src/img/church.png" alt="mactan" class="card-img-top">
 							<div class="card-body">
 								<h5 class="card-title">Mactan</h5>
-								<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem tempore doloribus
-									vitae id repudiandae quasi modi ducimus! Dolores nesciunt, voluptatibus ipsa veniam vel blanditiis
-									rerum nostrum suscipit iusto tempora quo cumque veritatis, numquam officia harum?</p>
+								<p class="card-text">Mactan is the improbable site of one of the defining moments in the Philippines' history. It was here on 27 April 1521 that Ferdinand Magellan was fatally wounded at the hands of Chief Lapu-Lapu. The event is commemorated at the Mactan Shrine on a stone plinth bearing the date that Magellan was felled.</p>
 							</div>
 						</div>
 
@@ -124,16 +118,17 @@
 				</div>
 
 			</div>
-
 		</div>
-
-	</div>
+			
 
 	<div class="vh-100 pt-5 mb-5 mt-5">
 		<h1 class="text-center mb-4">Cebu Map</h1>
 
-		<div class="text-center w-100 vh-100">
-			<iframe class="w-75 h-75" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251170.20391438217!2d123.68147977529186!3d10.379060188731216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1703732874598!5m2!1sen!2sph" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<div class="text-center w-100 vh-100 row">
+			<div class="c">
+				<iframe class="w-75 h-75" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251170.20391438217!2d123.68147977529186!3d10.379060188731216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1703732874598!5m2!1sen!2sph" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			
 		</div>
 	</div>
 
